@@ -11,7 +11,10 @@ public class Log4j2 {
     @Test
     public void testLogger(){
 
-
         logger.info("############ 执行调用成功了。。。");
+        logger.info("############ 执行调用成功了。。。");
+        logger.info("############ 执行调用成功了。。。");
+        logger.info("############ 执行调用成功了。。。");
+
     }
 }
