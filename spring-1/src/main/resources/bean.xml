@@ -5,9 +5,8 @@
     <!-- 完成User对象的创建
         bean标签
             id属性：唯一标识
-            class属性：要创建对象所在类的全路径
+            class属性：要创建对象所在类的全路径（包名+类名）
     -->
     <bean id="user" class="edu.lzu.spring.User">
-
     </bean>
 </beans>

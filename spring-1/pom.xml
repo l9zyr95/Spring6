@@ -16,6 +16,8 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+
+
     <dependencies>
         <!-- spring context 依赖 -->
         <!-- 当引入 spring context 依赖后，表示将spring的基础依赖引入了 -->
@@ -25,11 +27,14 @@
             <version>6.0.2</version>
         </dependency>
 
+        <!-- 测试类 junit  -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.6.3</version>
         </dependency>
+
+
 
         <!-- 整合log4j2日志  -->
         <dependency>
@@ -43,6 +48,8 @@
             <version>2.19.0</version>
         </dependency>
     </dependencies>
+
+
 
 
 
