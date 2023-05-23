@@ -1,6 +1,5 @@
 package edu.lzu.spring.bean1;
 
-import edu.lzu.spring.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -14,7 +13,5 @@ public class TestUserDaoImpl {
         UserDao user = context.getBean(UserDao.class);
 
         user.run();
-
-
     }
 }
